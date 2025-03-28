@@ -17,52 +17,52 @@ namespace DemoBackAppWebFormsTest.BLL.Service
             _repository = repository;
         }
 
-        public List<Product> GetAllProducts()
+        public List<Product> GetAll()
         {
-            return _repository.GetProducts();
+            return _repository.GetAll();
         }
 
-        public Product GetProduct(int id)
+        public Product GetById(int id)
         {
-            var product = _repository.GetProductById(id);
+            var product = _repository.GetById(id);
             if (product == null)
             {
-                throw new KeyNotFoundException($"No product found with ID {id}.");
+                throw new KeyNotFoundException($"the id of porduct {id} not  found");
             }
             return product;
         }
 
-        public void CreateProduct(Product product)
+        public void Add(Product product)
         {
             if (string.IsNullOrWhiteSpace(product.Name))
-                throw new ArgumentException("Product name is required.");
+                throw new ArgumentException(" give the name of product");
 
             if (product.Price <= 0)
-                throw new ArgumentException("Price must be greater than zero.");
+                throw new ArgumentException(" the curent Price <=0 - Price should be >0");
 
-            _repository.AddProduct(product);
+            _repository.Add(product);
         }
 
-        public void UpdateProduct(Product product)
+        public void Edit(Product product)
         {
-            var existingProduct = _repository.GetProductById(product.Id);
+            var existingProduct = _repository.GetById(product.Id);
             if (existingProduct == null)
             {
-                throw new KeyNotFoundException($"No product found with ID {product.Id}.");
+                throw new KeyNotFoundException($"product not found with  curent id {product.Id}");
             }
 
-            _repository.UpdateProduct(product);
+            _repository.Update(product);
         }
 
-        public void RemoveProduct(int id)
+        public void Remove(int id)
         {
-            var product = _repository.GetProductById(id);
+            var product = _repository.GetById(id);
             if (product == null)
             {
-                throw new KeyNotFoundException($"No product found with ID {id}.");
+                throw new KeyNotFoundException($"product not found with this id {id}.");
             }
 
-            _repository.DeleteProduct(id);
+            _repository.Delete(id);
         }
     }
 }

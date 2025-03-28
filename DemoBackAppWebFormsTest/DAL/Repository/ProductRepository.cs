@@ -1,9 +1,9 @@
 ﻿using DemoBackAppWebFormsTest.DAL.IRepository;
 using DemoBackAppWebFormsTest.DAL.Models;
-using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
-using System.Web;
+
 
 namespace DemoBackAppWebFormsTest.DAL
 {
@@ -16,23 +16,34 @@ namespace DemoBackAppWebFormsTest.DAL
             _context = context;
         }
 
-        public List<Product> GetProducts() => _context.Products.Include("Category").ToList();
+        //Get All Pordcuts
+        public List<Product> GetAll() 
+        {
+           
+            return _context.Products.ToList();
+        }
+        // Get by id Product 
+        public Product GetById(int id) 
+        { 
+          return _context.Products.Find(id);
+        } 
 
-        public Product GetProductById(int id) => _context.Products.Find(id);
-
-        public void AddProduct(Product product)
+        // Add new  Product
+        public void Add(Product product)
         {
             _context.Products.Add(product);
             _context.SaveChanges();
         }
 
-        public void UpdateProduct(Product product)
+        // edit product
+        public void Update(Product product)
         {
             _context.Entry(product).State = System.Data.Entity.EntityState.Modified;
             _context.SaveChanges();
         }
 
-        public void DeleteProduct(int id)
+        //delete by id 
+        public void Delete(int id)
         {
             var product = _context.Products.Find(id);
             if (product != null)

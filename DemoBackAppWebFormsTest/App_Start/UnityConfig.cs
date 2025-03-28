@@ -10,6 +10,7 @@ using System.Web;
 using System.Web.Http;
 using Unity.Lifetime;
 using Unity;
+using DemoBackAppWebFormsTest.DAL.Repository;
 
 namespace DemoBackAppWebFormsTest.App_Start
 {
@@ -23,8 +24,10 @@ namespace DemoBackAppWebFormsTest.App_Start
             container.RegisterType<MyDbContext>(new HierarchicalLifetimeManager());
             container.RegisterType<ICategoryRepository, CategoryRepository>();
             container.RegisterType<IProductRepository, ProductRepository>();
+            container.RegisterType<IUserRepository, UserRepository>();
             container.RegisterType<ICategoryService, CategoryService>();
             container.RegisterType<IProductService, ProductService>();
+            container.RegisterType<IUserService, UserService>();
 
             GlobalConfiguration.Configuration.DependencyResolver = new Unity.WebApi.UnityDependencyResolver(container);
         }

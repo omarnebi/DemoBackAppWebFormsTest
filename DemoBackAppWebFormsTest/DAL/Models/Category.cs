@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -20,6 +21,7 @@ namespace DemoBackAppWebFormsTest.DAL.Models
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
+        [JsonIgnore]
         public virtual ICollection<Product> Products { get; set; }
     }
 }

@@ -1,0 +1,593 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\bll\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\bll\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\bll\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\bll\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\bo\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\bo\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\dal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\app_start\\unityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\dal\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\web.release.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\bll\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\bll\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\bll\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\bll\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\migrations\\202503281932502_usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\migrations\\202503281932502_usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\dal\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\dal\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|c:\\users\\asus\\source\\repos\\demobackappwebformstest\\demobackappwebformstest\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\bll\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\bll\\iservice\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\dal\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\dal\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\demobackappwebformstest\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A95A4D23-1D30-4F71-AC95-8AB7C745D376}|DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest.csproj|solutionrelative:demobackappwebformstest\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 38,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BO\\UserLoginDTO.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\BO\\UserLoginDTO.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BO\\UserLoginDTO.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\BO\\UserLoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T20:15:27.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.Debug.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Web.Debug.config",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Web.Debug.config",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Web.Debug.config",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Web.Debug.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-28T20:06:31.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web.Release.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Web.Release.config",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Web.Release.config",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Web.Release.config",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Web.Release.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-28T20:06:29.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\packages.config",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\packages.config",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\packages.config",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-28T20:06:21.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\BLL\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\Service\\UserService.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\BLL\\Service\\UserService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA4wEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:50:03.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\BLL\\IService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\IService\\IUserService.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\BLL\\IService\\IUserService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:40:11.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:36:16.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:34:43.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "202503281932502_UserTable.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Migrations\\202503281932502_UserTable.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Migrations\\202503281932502_UserTable.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Migrations\\202503281932502_UserTable.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Migrations\\202503281932502_UserTable.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:32:55.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Site.Master.designer.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Site.Master.designer.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Site.Master.designer.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Site.Master.designer.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Site.Master.designer.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T14:06:31.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAIMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T23:24:33.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Global.asax.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Global.asax.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Global.asax.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:58:49.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnityConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\App_Start\\UnityConfig.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\App_Start\\UnityConfig.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\App_Start\\UnityConfig.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\App_Start\\UnityConfig.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwBoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:48:13.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:22:17.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\IService\\IProductService.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\BLL\\IService\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\IService\\IProductService.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\BLL\\IService\\IProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:36:47.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T19:26:29.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\BLL\\IService\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\BLL\\IService\\ICategoryService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:35:49.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\BLL\\Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\Service\\CategoryService.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\BLL\\Service\\CategoryService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwCoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:19:19.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\IRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\IRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\IRepository\\IProductRepository.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\IRepository\\IProductRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:32:38.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:31:50.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:15:46.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\BLL\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\BLL\\Service\\ProductService.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\BLL\\Service\\ProductService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T12:46:16.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:39:16.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\MyDbContext.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\MyDbContext.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:13:58.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Models\\Product.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\Models\\Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:12:49.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\DAL\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\DAL\\Models\\Category.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\DAL\\Models\\Category.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T00:12:11.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Web.config",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Web.config",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Web.config",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-27T00:10:53.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAmwJcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T23:58:59.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "DemoBackAppWebFormsTest\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\DemoBackAppWebFormsTest\\DemoBackAppWebFormsTest\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "DemoBackAppWebFormsTest\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T23:57:24.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1187,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 980,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

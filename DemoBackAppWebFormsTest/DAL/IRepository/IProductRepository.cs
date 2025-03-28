@@ -9,10 +9,10 @@ namespace DemoBackAppWebFormsTest.DAL.IRepository
 {
     public interface IProductRepository
     {
-        List<Product> GetProducts();
-        Product GetProductById(int id);
-        void AddProduct(Product product);
-        void UpdateProduct(Product product);
-        void DeleteProduct(int id);
+        List<Product> GetAll();
+        Product GetById(int id);
+        void Add(Product product);
+        void Update(Product product);
+        void Delete(int id);
     }
 }

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace DemoBackAppWebFormsTest.BLL.IService
 {
-    internal interface IProductService
+    public interface IProductService
     {
-        List<Product> GetAllProducts();
-        Product GetProduct(int id);
-        void CreateProduct(Product product);
-        void UpdateProduct(Product product);
-        void RemoveProduct(int id);
+        List<Product> GetAll();
+        Product GetById(int id);
+        void Add(Product product);
+        void Edit(Product product);
+        void Remove(int id);
     }
 }

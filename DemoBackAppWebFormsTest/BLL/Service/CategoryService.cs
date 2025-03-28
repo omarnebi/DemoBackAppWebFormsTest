@@ -1,9 +1,6 @@
 ﻿using DemoBackAppWebFormsTest.DAL.Models;
-using DemoBackAppWebFormsTest.DAL;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using DemoBackAppWebFormsTest.BLL.IService;
 using DemoBackAppWebFormsTest.DAL.IRepository;
 
@@ -18,20 +15,32 @@ namespace DemoBackAppWebFormsTest.BLL
             _repository = repository;
         }
 
-        public List<Category> GetAllCategories() => _repository.GetCategories();
-
-        public Category GetCategory(int id) => _repository.GetCategoryById(id);
-
-        public void CreateCategory(Category category)
+        public List<Category> GetAll()
         {
-            if (string.IsNullOrWhiteSpace(category.Name))
-                throw new ArgumentException("give the name of category.");
-
-            _repository.AddCategory(category);
+           return _repository.GetAll();
         }
 
-        public void UpdateCategory(Category category) => _repository.UpdateCategory(category);
+        public Category GetById(int id) {
 
-        public void RemoveCategory(int id) => _repository.DeleteCategory(id);
+           return _repository.GetById(id);
+        }
+
+        public void Add(Category category)
+        {
+            if (string.IsNullOrWhiteSpace(category.Name) && string.IsNullOrWhiteSpace(category.Description))
+                throw new ArgumentException(" give the name and description of category ");
+
+            _repository.Add(category);
+        }
+
+        public void Edit(Category category) { 
+        
+          _repository.Update(category);
+        }
+
+        public void Remove(int id) {
+
+            _repository.Delete(id);
+        } 
     }
 }

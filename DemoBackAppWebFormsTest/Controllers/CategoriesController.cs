@@ -1,34 +1,37 @@
-﻿using DemoBackAppWebFormsTest.BLL;
-using DemoBackAppWebFormsTest.BLL.IService;
+﻿using DemoBackAppWebFormsTest.BLL.IService;
 using DemoBackAppWebFormsTest.DAL.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
+
 using System.Web.Http;
+
 
 namespace DemoBackAppWebFormsTest.Controllers
 {
     public class CategoriesController : ApiController
     {
-        private readonly ICategoryService _service;
+        
+        private readonly ICategoryService _categroyservice;
 
+       
         public CategoriesController(ICategoryService service)
         {
-            _service = service;
+            _categroyservice = service;
         }
 
         /// <summary>
-        /// Retrieves all categories.
+        /// Get all categories.
         /// </summary>
+       
         [HttpGet]
         [Route("api/categories")]
-        public IHttpActionResult GetCategories()
+        public IHttpActionResult GetAllCategories()
         {
             try
             {
-                List<Category> categories = _service.GetAllCategories();
+
+                
+                List<Category> categories = _categroyservice.GetAll();
                 return Ok(categories);
             }
             catch (Exception ex)
@@ -38,16 +41,19 @@ namespace DemoBackAppWebFormsTest.Controllers
         }
 
         /// <summary>
-        /// Retrieves a specific category by ID.
+        ///  Get curent category by ID.
         /// </summary>
+      
         [HttpGet]
         [Route("api/categories/{id}")]
-        public IHttpActionResult GetCategory(int id)
+        public IHttpActionResult GetCategoryById(int id)
         {
             try
             {
-                Category category = _service.GetCategory(id);
+
+                Category category = _categroyservice.GetById(id);
                 return Ok(category);
+
             }
             catch (KeyNotFoundException ex)
             {
@@ -60,18 +66,19 @@ namespace DemoBackAppWebFormsTest.Controllers
         }
 
         /// <summary>
-        /// Creates a new category.
+        /// Create a new category.
         /// </summary>
+      
         [HttpPost]
         [Route("api/categories")]
-        public IHttpActionResult CreateCategory([FromBody] Category category)
+        public IHttpActionResult AddCategory([FromBody] Category category)
         {
             try
             {
                 if (category == null)
-                    return BadRequest("Category data is required.");
+                    return BadRequest("Category attributes is required.");
 
-                _service.CreateCategory(category);
+                _categroyservice.Add(category);
                 return Ok("Category created successfully.");
             }
             catch (ArgumentException ex)
@@ -85,22 +92,23 @@ namespace DemoBackAppWebFormsTest.Controllers
         }
 
         /// <summary>
-        /// Updates an existing category.
+        /// Edit curent category.
         /// </summary>
+      
         [HttpPut]
         [Route("api/categories/{id}")]
-        public IHttpActionResult UpdateCategory(int id, [FromBody] Category category)
+        public IHttpActionResult EditCategory(int id, [FromBody] Category category)
         {
             try
             {
                 if (category == null)
-                    return BadRequest("Category data is required.");
+                    return BadRequest("give all attributes of categrory");
 
                 if (id != category.Id)
-                    return BadRequest("Category ID mismatch.");
+                    return BadRequest("Category id  is not found");
 
-                _service.UpdateCategory(category);
-                return Ok("Category updated successfully.");
+                _categroyservice.Edit(category);
+                return Ok("Category edited");
             }
             catch (KeyNotFoundException ex)
             {
@@ -112,17 +120,19 @@ namespace DemoBackAppWebFormsTest.Controllers
             }
         }
 
+       
         /// <summary>
-        /// Deletes a category by ID.
+        /// Delete curent category  by id
         /// </summary>
+      
         [HttpDelete]
         [Route("api/categories/{id}")]
-        public IHttpActionResult DeleteCategory(int id)
+        public IHttpActionResult RemoveCategory(int id)
         {
             try
             {
-                _service.RemoveCategory(id);
-                return Ok("Category deleted successfully.");
+                _categroyservice.Remove(id);
+                return Ok("Category by id Removed");
             }
             catch (KeyNotFoundException ex)
             {

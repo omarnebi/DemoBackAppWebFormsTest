@@ -1,15 +1,10 @@
-﻿using System;
+﻿using DemoBackAppWebFormsTest.DAL.IRepository;
+using DemoBackAppWebFormsTest.DAL.Models;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
-
 namespace DemoBackAppWebFormsTest.DAL
 {
-    using DemoBackAppWebFormsTest.BLL.IService;
-    using DemoBackAppWebFormsTest.DAL.IRepository;
-    using DemoBackAppWebFormsTest.DAL.Models;
-    using System.Collections.Generic;
-    using System.Linq;
+
 
     public class CategoryRepository : ICategoryRepository
     {
@@ -20,23 +15,31 @@ namespace DemoBackAppWebFormsTest.DAL
             _context = context;
         }
 
-        public List<Category> GetCategories() => _context.Categories.ToList();
-
-        public Category GetCategoryById(int id) => _context.Categories.Find(id);
-
-        public void AddCategory(Category category)
+        public List<Category> GetAll()
         {
+          return  _context.Categories.ToList();
+        }
+
+        public Category GetById(int id) {
+
+           return _context.Categories.Find(id);
+
+        }
+        public void Add(Category category)
+        {
+           
             _context.Categories.Add(category);
             _context.SaveChanges();
         }
 
-        public void UpdateCategory(Category category)
+        public void Update(Category category)
         {
+
             _context.Entry(category).State = System.Data.Entity.EntityState.Modified;
             _context.SaveChanges();
         }
 
-        public void DeleteCategory(int id)
+        public void Delete(int id)
         {
             var category = _context.Categories.Find(id);
             if (category != null)
